@@ -21,7 +21,7 @@ components:
   - name: spacer_3_copy
     properties: {height: 58.19996643066406}
     type: Spacer
-    layout_properties: {width: 787.297}
+    layout_properties: {width: 692.4940732421875}
   - name: column_panel_1
     properties: {foreground: '', col_spacing: none, col_widths: '{"DZACHX":9,"EQLJSK":9,"IYMZZI":9,"QMIILD":9,"PIMIYE":8,"YSLIKN":6,"LADGEM":10}'}
     type: ColumnPanel
@@ -317,7 +317,7 @@ components:
     wrap_on: mobile, col_spacing: none, spacing_above: none, col_widths: '{"VMILPR":8,"FDANOO":15,"HAKDVS":15}',
     spacing_below: none, background: '#2270ad'}
   type: ColumnPanel
-  layout_properties: {grid_position: 'NLWOHT,CUMFAM'}
+  layout_properties: {grid_position: 'NLWOHT,CUMFAM', full_width_row: true}
   components:
   - name: label_1_copy
     properties: {text: CopyRight2023@Gwallet, align: left, bold: false, font_size: 12,

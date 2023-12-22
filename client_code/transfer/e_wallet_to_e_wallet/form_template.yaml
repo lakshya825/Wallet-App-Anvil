@@ -36,12 +36,14 @@ components:
       layout_properties: {width: 800, expand: false}
       components:
       - name: link_2
-        properties: {text: Deposit, align: center, bold: true, foreground: black}
+        properties: {text: Deposit, align: center, bold: true, foreground: black,
+          font_size: 15}
         type: Link
         layout_properties: {grid_position: 'MNPBPI,DZACHX'}
         event_bindings: {click: link_2_click}
       - name: link_3
-        properties: {text: Money Transfer, bold: true, align: center, foreground: black}
+        properties: {text: Money Transfer, bold: true, align: center, foreground: black,
+          font_size: 15}
         type: Link
         layout_properties: {grid_position: 'MNPBPI,EQLJSK'}
         event_bindings: {click: link_3_click}

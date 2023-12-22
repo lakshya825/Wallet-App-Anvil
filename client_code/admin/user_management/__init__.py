@@ -19,7 +19,6 @@ class user_management(user_managementTemplate):
    open_form('admin.admin_add_user')
 
   def link_8_copy_click(self, **event_args):
-    """This method is called when the link is clicked"""
     open_form('admin')
 
   def link_10_copy_click(self, **event_args):
